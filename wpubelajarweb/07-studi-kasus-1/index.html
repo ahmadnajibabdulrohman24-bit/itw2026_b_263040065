@@ -197,7 +197,123 @@
         <!-- 2.5 TICKETS SECTION -->
          <section id="tickets">
             <h3>Get Your Tickets</h3>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <br>
+                <input type="text" id="fullname" name="fullname" required autofocus autocomplete="off">
+            <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            <br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required>
+            <br>
+
+            <label>Ticket Type:</label><br>
+            <input type="radio" id="regular" name="ticket_type" checked>
+            <label for="regular">Regular (Rp 500.000)
+            <br>
+
+             <input type="radio" id="VIP" name="ticket_type">
+            <label for="vip">VIP (Rp 1.500.000)
+            <br>
+
+             <input type="radio" id="VVIP" name="ticket_type" >
+            <label for="vvip">VVIP (Rp 3.000.000)
+            <br>
+
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br>
+
+            <label>Day Pass:</label><br>
+            <input type="checkbox" id="day1" name="day1">
+            <label for="day1">Day1 (June 15) - Bernadya & .Feast</label>
+            <br>
+
+            <input type="checkbox" id="day2" name="day2">
+            <label for="day2">Day2 (June 16) - Juicy Luicy & Hindia</label>
+            <br>
+
+            <input type="checkbox" id="day3" name="day3">
+            <label for="day3">Day3 (June 17) - Nadin Amizah & Pamungkas</label>
+            <br>
+
+
+            <button Type="submit">Book Now</button>
+            </label>
+          </form>
          </section>
+         <hr>
+
+         <!-- 2.6 GALLERY SECTION -->
+          <section id="gallery">
+            <h3>Festival Highlights 2025</h3>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="assets/images/gallery/Crowd_vibes.png" alt="Crowd Vibes" width="300">
+                        <figcaption>
+                            Crowd Vibes at Main Stages 2025
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assets/images/gallery/neon_installation.png" alt="Neon Installation" width="300">
+                        <figcaption>
+                           Neon lights  Installation At Entrance
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assets/images/gallery/Sunse_Peformance.png" alt="Artis Performing at Sunset" width="300">
+                        <figcaption>
+                            Artis Performing At Sunset
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assets/images/gallery/food_court.png" alt="Food court area" width="300">
+                        <figcaption>
+                            Food Court Area
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assets/images/gallery/VIP_Lounge.png" alt="VIP Lounge" width="300">
+                        <figcaption>
+                            VIP Lounge
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="assets/images/gallery/Fireworks.png
+                        " alt="Fireworks Closing Ceremony" width="300">
+                        <figcaption>
+                            Fireworks Closing Ceremony
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+          </section>
         </main>
+        <hr>
+
+        <!-- 3. FOOTER -->
+        <footer>
+            <p>&copy; 2026 WPU StreamFest. All rights reserved.</p> 
+            <p>
+                Follow us on:
+                <a href="#" target="_blank">Instagram</a> 
+                <a href="#" target="_blank">Twitter / X</a> 
+                <a href="#" target="_blank">Youtube</a>    
+                <a href="#" target="_blank">Tik-Tok</a>    
+            </p>
+            <p>Contact: <a href="mailto:hello@wpustreamfest.com">hello@wpustreamfest.com</a></p>
+        </footer>
     </body>
 </html>
